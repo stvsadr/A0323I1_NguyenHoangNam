@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Đăng ký</title>
+        <style>
+            .wufoo {
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ĐĂNG KÝ NGƯỜI DÙNG</h1>
+        <form
+            action=" http://demo.codegym.vn/6/registration_form/register.php"
+            method="post"
+            target="_blank"
+        >
+            <label><b>Họ và tên:</b></label> <br />
+            <input type="text" name="name" /><br />
+            <label>
+                <p class="wufoo"></p>
+                <b>Email:</b></label
+            >
+            <br />
+            <input type="text" name="Email" /><br />
+            <label>
+                <p class="wufoo"></p>
+                <b>Số điện thoại:</b></label
+            >
+            <br />
+            <input type="text" name="phone" /><br />
+            <label
+                ><p class="wufoo"></p>
+                <b>Giới tính:</b></label
+            ><br />
+            <input type="radio" id="Nam" name="gender" /><label for="Nam"
+                >Nam</label
+            >
+            <input type="radio" id="Nữ" name="gender" /><label for="Nữ"
+                >Nữ</label
+            ><br />
+            <input type="submit" value="Đăng ký" />
+        </form>
+    </body>
+</html>
